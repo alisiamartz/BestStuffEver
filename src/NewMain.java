@@ -13,6 +13,10 @@ public class NewMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+      
+      Scanner in = new Scanner (new File("test.txt");
+      
+      
         // TODO code application logic here
     }
     
