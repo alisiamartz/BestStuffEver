@@ -9,13 +9,24 @@
  * @author alisiamartinez
  */
 public class UIMS {
+  
+  int n; // hash value of the 
+  
+  double first = 2;
+  double second = 1; //incremented when load factor is greater than 0.75
+  
+  public int m = Math.pow((first, second);   // a prime number or power of 2, depending on hash fam used
+  
+  public Hashtable ht = new Hashtable (int m); // size of currently allocated hash table
+                                               // init 2 if hash table is dynamically growing
     
-    // size of currently allocated hash table
-    public int m = 2;   // a prime number or power of 2, depending on hash fam used
-    // init 2 if hash table is dynamically growing
+     
+    
+    
+    
     
     public int customerId = 0;
-    public int[] userT = new int[m-1];
+    public int[] userT = new int[m-1]; //set of hash values
     
     
     
@@ -33,7 +44,6 @@ public class UIMS {
         }else {
             return false;
         }
-        ass
         */
         return true;
     }
@@ -43,8 +53,9 @@ public class UIMS {
         //precondition
         // 
         if (uid.isAvailable && customerId = cid) {  // if available and Id is on last box of table (max amount)
-            //uid is in hash table userT associated with cid
-            //and customerId = cid+1;
+        
+        //uid is in hash table userT associated with cid
+        //and customerId = cid+1;
         }
     }
     */
@@ -75,8 +86,25 @@ public class UIMS {
         return 0;
     }
     
+			int[] salt(){
+	
+			}
+			
+			int generateSalt(){
+  		  double n= Math.random();
+  		  
+  		}
+		
+		  double load()
+        load() = customer Id/m
+        float loadFactor = 0.75;
+        // when adding a user id would put the load factor over 0.75 then reallocate
+        // the hash table, double its size. You may want to experiemnt w other load factors
+    
+    
     void reallocate() {
-        
+      //if (loadFactor > 0.75)
+      //  incrrement second 
     }
     
     void clear(){
