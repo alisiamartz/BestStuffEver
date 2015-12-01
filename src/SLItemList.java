@@ -12,8 +12,25 @@
 public class SLItemList<SItem> {
 
     private SItem header;
-    private SLItemList<SItem> next;
+    private SLItemList<SItem> head, tail;
+    protected long size;
     
+    public SLItemList() {
+        head = null;
+        tail = null;
+        size = 0;
+    }
+    
+    
+    // Method to add SItem to the list. Storage space for 
+    // the SItem is already allocated in the calling method
+    public void addFirst(SItem Node) {
+        // Set the tail only if this is the very first SItem
+        if (tail == null) {
+        //    tail = Node;    // Make next of the new SItem refer to the head
+        }
+        
+    }
     
    // public Item header; 
     
